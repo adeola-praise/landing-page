@@ -119,4 +119,21 @@ a{
 
 .third{
     background-color: #E5E7EB;
+    height: 300px;
+}
+
+#quote{
+    padding-top: 70px;
+    padding-left: 160px;
+    padding-right: 130px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 26px;
+    color: #1f2937;
+}
+
+#author{
+    text-align: right;
+    margin-top: 20px;
+    padding-right: 150px;
 }
