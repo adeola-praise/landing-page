@@ -8,8 +8,8 @@
 }
 
 .hero{
-    background-color: white;
-    height: 500px;
+    background-color: #1f2937;
+    height: 470px;
 }
 
 .header{
@@ -19,7 +19,7 @@
 }
 .logo{
     font-size: 24px;
-    color: #3882f6;
+    color: #F9FAF8;
 }
 
 ul{
@@ -34,7 +34,7 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #E5E7EB;
     font-size: 18px;
 }
 
@@ -42,7 +42,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .left{
@@ -51,10 +51,12 @@ a{
 
 .left .title{
     font-size: 48px;
+    color: #F9FAF8;
 }
 .left .sub-title{
     margin: 10px 10px 10px 0px;
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 .btn{
@@ -67,8 +69,54 @@ a{
 #image-one{
     margin-right: 30px;
     margin-top: 50px;
+    width: 300px;
 }
 
 .second{
-    background-color: #1f2937;
+    background-color: white;
+    height: 450px;
+}
+
+#sub-header{
+    color: #1f2937;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.container .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .box{
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 100px;
+    border-radius: 20%;
+}
+
+.product-image{
+    width: 90px;
+    height: 100px;
+    margin-top: 30px;
+}
+.card-text{
+    width: 100px;
+    text-align: center;
+    color: black;
+}
+
+.third{
+    background-color: #E5E7EB;
 }
