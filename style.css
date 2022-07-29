@@ -9,17 +9,22 @@
 
 .hero{
     background-color: #1f2937;
-    height: 470px;
+    height: 570px;
 }
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    padding-left: 120px;
+}
+
+.nav-bar{
+    padding-right: 200px;
 }
 
 ul{
@@ -29,7 +34,7 @@ ul{
 
 li{
     list-style: none;
-    margin: 10px;
+    margin: 15px;
 }
 
 a{
@@ -40,13 +45,13 @@ a{
 
 .main{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 5px;
 }
 
 .left{
-    padding-left: 110px;
+    padding-left: 80px;
 }
 
 .left .title{
@@ -62,28 +67,31 @@ a{
 .btn{
     color: white;
     background-color: #3882f6;
-    padding: 15px 25px;
+    padding: 15px 45px;
     border-radius: 7px;
     font-weight: bold;
     border: none;
-
 }
 #image-one{
-    margin-right: 30px;
-    margin-top: 50px;
-    width: 300px;
+    margin-right: 50px;
+    margin-top: 10px;
+    width: 500px;
+    height: 430px;
+    margin-right: 170px;
+    padding-top: 50px;
+    align-self: flex-end;
 }
 
 .second{
     background-color: white;
-    height: 450px;
+    height: 500px;
 }
 
 #sub-header{
     color: #1f2937;
     text-align: center;
-    padding-top: 30px;
-    font-size: 30px;
+    padding-top: 40px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
@@ -91,7 +99,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
     margin-top: 50px;
 }
 
@@ -102,48 +110,49 @@ a{
     align-items: center;
 }
 .container .box{
-    border: 3px solid #3882f6;
-    height: 150px;
-    width: 120px;
+    border: 4px solid #3882f6;
+    height: 180px;
+    width: 180px;
     border-radius: 10%;
 }
 
 .product-image{
-    width: 90px;
-    height: 100px;
-    margin-top: 30px;
-    margin-left: 7px;
+    width: 140px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 .card-text{
-    width: 100px;
+    width: 180px;
     text-align: center;
     color: black;
 }
 
 .third{
     background-color: #E5E7EB;
-    height: 300px;
+    height: 450px;
 }
 
 #quote{
-    padding-top: 70px;
-    padding-left: 160px;
-    padding-right: 130px;
+    padding-top: 130px;
+    padding-left: 250px;
     font-style: italic;
-    font-weight: lighter;
-    font-size: 26px;
+    font-size: 35px;
+    font-weight: 300;
     color: #1f2937;
 }
 
 #author{
     text-align: right;
-    margin-top: 20px;
-    padding-right: 150px;
+    margin-top: 10px;
+    padding-right: 400px;
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 .fourth{
     background-color: white;
-    height: 250px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,23 +160,27 @@ a{
 
 .action{
     background-color: #3882f6;
-    height: 120px;
-    width: 600px;
-    border-radius: 5px;
+    height: 150px;
+    width: 1000px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #F9FAF8;
 }
 
+.message h3{
+    font-size: 25px;
+}
+
 .message p{
-    font-size: 13px;
+    font-size: 20px;
 }
 
 #btn-two{
     background-color: #3882f6;
     color: #F9FAF8;
-    padding: 9px 20px;
+    padding: 10px 35px;
     border: 3px solid #F9FAF8;
     border-radius: 7px;
     font-weight: bold;
@@ -178,6 +191,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100px;
 }
 
 .footer p{
